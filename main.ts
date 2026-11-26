@@ -1,6 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// Finisher touch: keep the line byte-identical; only this note changed.
 // The worst line an AI could say: flat, over-helpful, faintly ominous.
 // 102 characters, inside the 140-character gate.
 const LINE =
